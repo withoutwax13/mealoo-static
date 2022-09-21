@@ -1,0 +1,84 @@
+* {
+    font-family: 'Montserrat', serif;
+}
+
+body {
+    display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#landing-page {
+    background-image: url(../assets/image/bg-1.jpg);
+    height: 100%;
+}
+
+.primary-site-font-color {
+    color:#2D5A27 !important;
+}
+
+.primary-site-btn {
+    background-color: #2D5A27 !important;
+    color: white !important;
+}
+
+.secondary-site-btn {
+    background-color: white;
+    border-color: #2D5A27 !important;
+    color: #2D5A27;
+}
+
+.site-text-underline {
+    text-decoration: underline; text-decoration-color: #2D5A27;
+}
+
+.brand-img {
+    height: 50px;
+    width: 50px;
+}
+#brand-logo-label {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.nav-item-hover:hover {
+    text-decoration: underline;
+    color: black;
+    text-decoration-color: #2D5A27 !important;
+}
+
+.short-page-main-heading {
+    font-weight: 800;
+}
+
+.active {
+    font-weight: 600 !important;
+}
+
+.plan-label {
+    font-weight: 800;
+    font-size: 180%;
+}
+
+.price-label {
+    font-size: 110%;
+    text-decoration: line-through;
+}
+
+.footer-label-highlight {
+    font-weight: 600;
+}
+
+.footer-nav-link a{
+    color: rgb(71, 68, 68) !important;
+}
+
+.footer-nav-link a:hover{
+    text-decoration: underline;
+    text-decoration-color: #2D5A27 !important;
+}
+
+.footer-wrapper {
+    margin-top: auto;
+}
