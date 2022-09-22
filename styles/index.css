@@ -4,14 +4,9 @@
 
 body {
     display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-#landing-page {
-    background-image: url(../assets/image/bg-1.jpg);
-    height: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .primary-site-font-color {
@@ -63,6 +58,9 @@ body {
 
 .price-label {
     font-size: 110%;
+}
+
+.crossed {
     text-decoration: line-through;
 }
 
@@ -81,4 +79,40 @@ body {
 
 .footer-wrapper {
     margin-top: auto;
+}
+
+.card-body li{ margin-bottom: 5px; margin-left: 5px; } 
+
+.benefit-gallery {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.benefit-img {
+    height: 300px;
+    width: 485.410px;
+}
+
+.features {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.img-feature {
+    height: 150px;
+    width: 242.705px;
+}
+
+.soc-avatar {
+    width: 150px; height: 150px;
+}
+
+.subheading {
+    font-size: 150%;
+}
+
+.emphasis {
+    text-decoration: underline;
+    text-decoration-color: #2D5A27;
+    text-decoration-thickness: 10%;
 }
