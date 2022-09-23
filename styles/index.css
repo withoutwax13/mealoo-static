@@ -116,3 +116,8 @@ body {
     text-decoration-color: #2D5A27;
     text-decoration-thickness: 10%;
 }
+
+.modal-visual {
+    height: 80%;   
+    width: 100%;
+}
