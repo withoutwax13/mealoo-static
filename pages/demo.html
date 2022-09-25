@@ -52,14 +52,208 @@
     </div>
   </nav>
   <main>
-    <div class="container pt-5 pb-5">
-      <h1 class="text-center pt-5 pb-5 short-page-main-heading">Product Demo</h1>
-      <div class="ratio ratio-16x9">
-        <iframe
-          src="https://www.youtube.com/embed/sLZ_koI3qi8"
-          title="YouTube video"
-          allowfullscreen
-        ></iframe>
+    <div class="container py-5">
+      <div class="row py-5">
+        <div class="col-lg-7">
+          <div class="mb-3">
+            <h1 class="short-page-main-heading text-start">Try Mealoo</h1>
+          </div>
+          <div class="brand-content text-start">
+              <h4>Play with our basic parameters, hit the apply button, then wait for the result</h4>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <img src="../assets/image/demo-visual.svg" alt="demo-visual" class="img-fluid rounded mx-auto d-block pricing-visual">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 my-3">
+          <div class="params-component">
+            <div class="parameter-group">
+              <h5 class="parameter-group-label">Slider Group</h5>
+              <div>
+                <label for="customRange1" class="form-label">Calories</label>
+                <input type="range" class="form-range" id="customRange1">
+              </div>
+              <div>
+                <label for="customRange2" class="form-label">Protein</label>
+                <input type="range" class="form-range" id="customRange2">
+              </div>
+            </div>
+            <div class="parameter-group">
+              <h5 class="parameter-group-label">Preferences Group</h5>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="option1">
+                <label class="form-check-label" for="inlineCheckbox11">Option 1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox12" value="option2">
+                <label class="form-check-label" for="inlineCheckbox12">Option 2</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox13" value="option3">
+                <label class="form-check-label" for="inlineCheckbox13">Option 3</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox14" value="option4">
+                <label class="form-check-label" for="inlineCheckbox14">Option 4</label>
+              </div>
+            </div>
+            <div class="parameter-group">
+              <h5 class="parameter-group-label">Another Preferences Group</h5>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox21" value="option1">
+                <label class="form-check-label" for="inlineCheckbox21">Option 1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox22" value="option2">
+                <label class="form-check-label" for="inlineCheckbox22">Option 2</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox23" value="option3">
+                <label class="form-check-label" for="inlineCheckbox23">Option 3</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox24" value="option4">
+                <label class="form-check-label" for="inlineCheckbox24">Option 4</label>
+              </div>
+            </div>
+            <div class="parameter-group">
+              <h5 class="parameter-group-label">Another Preferences Group</h5>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault1">
+                <label class="form-check-label" for="flexSwitchCheckDefault1">Option 1</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault2">
+                <label class="form-check-label" for="flexSwitchCheckDefault2">Option 2</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault3">
+                <label class="form-check-label" for="flexSwitchCheckDefault3">Option 3</label>
+              </div>
+            </div>
+            <div class="parameter-group">
+              <h5 class="parameter-group-label">Sort By</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios1" id="taste" value="taste">
+                <label class="form-check-label" for="taste">
+                  Taste
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios1" id="price" value="price">
+                <label class="form-check-label" for="price">
+                  Price
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios1" id="nutritional-value" value="nutritional-value" checked>
+                <label class="form-check-label" for="nutritional-value">
+                  Nutritional Value
+                </label>
+              </div>
+            </div>
+            <div class="parameter-group">
+              <h5 class="parameter-group-label">Preparation Time</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="Less than 15 minutes" value="Less than 15 minutes">
+                <label class="form-check-label" for="Less than 15 minutes">
+                  Less than 15 minutes
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="Less than 30 minutes, more than 15 minutes" value="Less than 30 minutes, more than 15 minutes">
+                <label class="form-check-label" for="Less than 30 minutes, more than 15 minutes">
+                  Less than 30 minutes, more than 15 minutes
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="Less than 1 hour, more than 30 minutes" value="Less than 1 hour, more than 30 minutes" checked>
+                <label class="form-check-label" for="Less than 1 hour, more than 30 minutes">
+                  Less than 1 hour, more than 30 minutes
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="params-button-component my-5">
+            <a href="#" type="button" class="btn secondary-site-btn">Reset</a>
+            <a href="#" type="button" class="btn primary-site-btn">Apply</a>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-8 my-3">
+          <div class="card my-2" aria-hidden="true">
+            <div class="card-body">
+              <h5 class="card-title placeholder-glow">
+                <span class="placeholder col-6"></span>
+              </h5>
+              <p class="card-text placeholder-glow">
+                <span class="placeholder col-7"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-6"></span>
+                <span class="placeholder col-8"></span>
+              </p>
+              <a href="#" tabindex="-1" class="btn primary-site-btn disabled placeholder col-6"></a>
+            </div>
+          </div>
+          <div class="card my-2" aria-hidden="true">
+            <div class="card-body">
+              <h5 class="card-title placeholder-glow">
+                <span class="placeholder col-6"></span>
+              </h5>
+              <p class="card-text placeholder-glow">
+                <span class="placeholder col-7"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-6"></span>
+                <span class="placeholder col-8"></span>
+              </p>
+              <a href="#" tabindex="-1" class="btn primary-site-btn disabled placeholder col-6"></a>
+            </div>
+          </div>
+          <div class="card my-2" aria-hidden="true">
+            <div class="card-body">
+              <h5 class="card-title placeholder-glow">
+                <span class="placeholder col-6"></span>
+              </h5>
+              <p class="card-text placeholder-glow">
+                <span class="placeholder col-7"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-6"></span>
+                <span class="placeholder col-8"></span>
+              </p>
+              <a href="#" tabindex="-1" class="btn primary-site-btn disabled placeholder col-6"></a>
+            </div>
+          </div>
+          <div class="card my-2" aria-hidden="true">
+            <div class="card-body">
+              <h5 class="card-title placeholder-glow">
+                <span class="placeholder col-6"></span>
+              </h5>
+              <p class="card-text placeholder-glow">
+                <span class="placeholder col-7"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-6"></span>
+                <span class="placeholder col-8"></span>
+              </p>
+              <a href="#" tabindex="-1" class="btn primary-site-btn disabled placeholder col-6"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="my-5">
+        <h1 class="text-center py-5 short-page-main-heading">How Mealoo works?</h1>
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/hbUxV19x3Bw"
+            title="YouTube video"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
     </div>
   </main>

@@ -121,3 +121,13 @@ body {
     height: 80%;   
     width: 100%;
 }
+
+.pricing-visual {
+    height: 60%;   
+    width: 60%;
+}
+.parameter-group-label {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
