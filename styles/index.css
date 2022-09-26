@@ -131,3 +131,9 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.faq-question-btn:hover {
+    background-color: white;
+    border-color: #2D5A27 !important;
+    color: #2D5A27;
+}
