@@ -1,6 +1,9 @@
 Project Title: Mealoo
+
 Status: Incomplete; No Backend
+
 Concept: Mealoo provides an alternative to directly hiring professional nutritionists and dietitians. It has a monthly or annually subscription business model.
+
 Services:
 
 1. AI-RECOMMENDED MEALS
