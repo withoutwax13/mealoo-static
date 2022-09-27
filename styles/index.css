@@ -137,3 +137,7 @@ body {
     border-color: #2D5A27 !important;
     color: #2D5A27;
 }
+
+.ingredients-wrapper p {
+    font-size: 80%;
+}
